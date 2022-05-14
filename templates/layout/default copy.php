@@ -1,5 +1,4 @@
 <?php
-
 /**
  * CakePHP(tm) : Rapid Development Framework (https://cakephp.org)
  * Copyright (c) Cake Software Foundation, Inc. (https://cakefoundation.org)
@@ -15,11 +14,10 @@
  * @var \App\View\AppView $this
  */
 
-$cakeDescription = 'Barber App: reserva tu corte';
+$cakeDescription = 'CakePHP: the rapid development php framework';
 ?>
 <!DOCTYPE html>
 <html>
-
 <head>
     <?= $this->Html->charset() ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -37,11 +35,10 @@ $cakeDescription = 'Barber App: reserva tu corte';
     <?= $this->fetch('css') ?>
     <?= $this->fetch('script') ?>
 </head>
-
 <body>
     <nav class="top-nav">
         <div class="top-nav-title">
-            <a href="<?= $this->Url->build('/') ?>"><span>Barber </span>App</a>
+            <a href="<?= $this->Url->build('/') ?>"><span>Cake</span>PHP</a>
         </div>
         <div class="top-nav-links">
             <a target="_blank" rel="noopener" href="https://book.cakephp.org/4/">Documentation</a>
@@ -57,5 +54,4 @@ $cakeDescription = 'Barber App: reserva tu corte';
     <footer>
     </footer>
 </body>
-
 </html>
